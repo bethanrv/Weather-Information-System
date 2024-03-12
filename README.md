@@ -18,7 +18,7 @@ Simple REST API using Node.js that provides weather information for a given city
         - npm start
 - Setup for python client:
     - Install Python: Make sure you have Python installed on your system. Python can be installed from the windows store or from https://www.python.org/.
-    - Install requests library: requests is the only external dependency and can be installed with the following command.
+    - Install requests library: requests is the only external dependency for client.py and can be installed with the following command.
         - pip install requests
     - Run the Python Client: Once everything is installed, navigate to the Weather-Information-System directory on your machine and run the following command to start the program.
         - python client.py
