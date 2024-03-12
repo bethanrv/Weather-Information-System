@@ -8,6 +8,12 @@ Simple REST API using Node.js that provides weather information for a given city
         - git clone https://github.com/bethanrv/Weather-Information-System.git
     - Install npm: Use the following command to inside the Weather-Information-System directory.
         - npm install
+    - Install Express: We use express to create a minimal REST API. To install Express, use the following npm command.
+        - npm install express
+    - Install Axios: We use axios for promise-based requests to OpenWeatherMap. To install Axios, use the following npm command.
+        - npm install axios
+    - Install dotenv: We use dotenv to load environment variables from our .env file. To install dotenv, use the following npm command.
+        - npm install dotenv
     - Start the Server: Once everything is installed, you can run the server via the following command. This will start the server on localhost:3000
         - npm start
 - Setup for python client:
@@ -29,6 +35,7 @@ Simple REST API using Node.js that provides weather information for a given city
 ## Server Assumptions (app.js)
 - Express Installed: The script assumes that Express.js is installed in the environment where it is being executed.
 - Axios Installed: The script assumes that Axios is installed in the environment where it is being executed.
+- dotenv Installed: The script assumes that the dotenv package is installed to handle environment variables.
 - OpenWeatherMap API Access: The script assumes that the OpenWeatherMap API is accessible at the URL specified in .env.
 - Request Parameters: The /weather endpoint expects a city parameter in the query string of the request. It assumes that the client will provide the city parameter to fetch weather data for a specific city.
 - JSON Response Format: The script assumes that the successful response from the OpenWeatherMap API will be in JSON format and contain the necessary weather data.
